@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #201d1d;
+    scroll-behavior: smooth;
+  }
+  
+ .navbar {
+  background: linear-gradient(to left, #000, #393636);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+ 
+  .logo img {
+    max-width: 100px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+    .menu-toggle {
+      display: block;
+    }
+  }
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(to right, #000, #393636);
+    padding: 40px; 
+  }
+  
+  .content {
+    flex: 1;
+    color: #fff;
+    max-width: 600px; 
+  }
+  
+  .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .content {
+      max-width: 100%; 
+    }
+  }
+  
+  h2 {
+    font-size: 2.5em; 
+    margin-bottom: 20px; 
+  }
+  
+  p {
+    font-size: 1.2em; 
+    line-height: 1.6; 
+    margin-bottom: 20px; 
+  }
+  
+  .call-button {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #c0b9b9;
+    padding: 15px 30px; 
+    font-size: 1.2em; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .call-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+
+  .services {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+  }
+  
+  .section-title {
+    margin-bottom: 35px;
+  }
+  
+  .card {
+    display: inline-block; 
+    width: 30%;
+    border: 1px solid rgb(56, 54, 54);
+    border-radius: 10px;
+    margin: 0 10px 20px; 
+    vertical-align: top; 
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+  }
+  
+  .card p {
+    color: #666;
+  }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 90%; /* Increase width for small devices */
+    margin: 0 auto 20px; /* Center the card horizontally */
+  }
+}
+
+  .about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: #ffffff;
+    background-color: #000000; /* Background color for the section */
+  }
+  
+  .about-content {
+    max-width: 600px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-content {
+      max-width: 100%;
+    }
+  
+    .about-content p {
+      margin-bottom: 20px; /* Add space between paragraphs */
+    }
+  }
+  
+  .contact-section {
+    padding: 40px;
+    color: #fff;
+    background-color: #000000; /* Background color for the section */
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: calc(100% - 20px); /* Adjust width to allow space for padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+  }
+  
+  .contact-form button {
+    width: 100%; /* Button width matches input width */
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bolder;
+    padding: 10px 0; /* Remove horizontal padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .footer {
+    background: linear-gradient(to left, #000, #453f3f);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-left img {
+    width: 100px; /* Adjust size of logo as needed */
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  .footer-right p {
+    margin: 5px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer-left,
+    .footer-right {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .footer-left img {
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  

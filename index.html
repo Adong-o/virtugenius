@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Virtual Assistance Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://i.postimg.cc/3J7mVWJc/logo-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+
+    <!--Navigation-->
+    <nav class="navbar">
+        <div class="logo">
+          <img src="https://i.postimg.cc/3J7mVWJc/logo-removebg-preview.png" alt="Logo">
+        </div>
+        <div class="menu-toggle">
+          <div class="hamburger"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#abouut">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    
+      <section class="content-section" id="home">
+        <div class="content">
+          <h2>Forget & Relax We Will <br> Take Care Of The Rest</h2>
+          <p>Welcome to Virtu-Genius, your destination for personalized and effortless management solutions. Our expert virtual assistants tailor every detail to ensure your life is stress-free and harmonious, giving you the freedom to focus on what truly matters.</p>
+          <button class="call-button">Call Me</button>
+        </div>
+        <div class="image">
+          <img src="https://i.postimg.cc/vmyzvXxc/425-4258462-virtual-assistant-will-be-your-virtual-assistant-removebg-preview.png" alt="Image">
+        </div>
+      </section>
+
+      <!--Services-->
+
+      <section class="services" id="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="card">
+          <img src="https://i.postimg.cc/xCy2qsDY/webdev.jpg" alt="Service 1">
+          <h3>Web Development</h3>
+          <p>Transform your online presence with our cutting-edge web development services. From sleek design to seamless functionality, we craft websites that captivate your audience and elevate your brand. Let us bring your vision to life, ensuring a digital experience that sets you apart in today's competitive landscape.</p>
+        </div>
+
+        <div class="card">
+          <img src="https://i.postimg.cc/Z5cs910w/data.avif" alt="Service 2">
+          <h3>Data Entry</h3>
+          <p>Effortlessly manage your data with our meticulous data entry services. From organizing spreadsheets to inputting information accurately, we handle the details so you can focus on your core business. Trust us to streamline your data processes, ensuring efficiency and accuracy every step of the way.</p>
+        </div>
+
+        <div class="card">
+          <img src="https://i.postimg.cc/ZRVJVffH/customer.jpg" alt="Service 3">
+          <h3>Customer Service</h3>
+          <p>Elevate your customer experience with our comprehensive support services. From handling inquiries to booking flights, our dedicated team ensures seamless interactions and satisfaction. Let us take care of the details while you enjoy peace of mind and focus on what matters most.</p>
+        </div>
+
+        <div class="card">
+          <img src="https://i.postimg.cc/CK92YbR0/email.jpg" alt="Service 3">
+          <h3>Email Management</h3>
+          <p>Simplify your inbox and stay organized with our expert email management services. From prioritizing messages to crafting timely responses, we handle it all with precision and care. Experience the freedom of a clutter-free inbox while we ensure efficient communication that keeps you connected and productive.</p>
+        </div>
+        
+        <div class="card">
+          <img src="https://i.postimg.cc/5NtS76tS/accounting.jpg" alt="Service 3">
+          <h3>Accounting Tasks</h3>
+          <p>Take the hassle out of your finances with our comprehensive accounting services. From bookkeeping to financial analysis, our skilled professionals handle every aspect with precision and expertise. Trust us to keep your records accurate and your finances in order, so you can focus on growing your business with confidence.</p>
+        </div>
+      </section>
+
+      <section class="about-section" id="abouut">
+        <div class="about-content">
+          <h2>About Us</h2>
+          <p>
+            Welcome to Virtu-Genius, your trusted partner in efficiency and productivity. With a diverse range of services including email management, web development, and more, we tailor solutions to suit your specific needs. Backed by a team of skilled professionals and a commitment to excellence, we're here to streamline your operations and drive success. Let us handle the details, so you can focus on what truly matters to you or your business. Join us and experience the difference today.</p>
+        </div>
+      </section>
+      
+      <section class="contact-section" id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="https://formspree.io/f/mayroagg" method="POST">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="service">Select Service:</label>
+          <select id="service" name="service">
+            <option value="service1">What is the service you are looking for ?</option>
+            <option value="service1">Email Promotion</option>
+            <option value="service2">Accounting Tasks</option>
+            <option value="service3">Web Development</option>
+            <option value="service3">Bookings</option>
+            <option value="service3">Data analysis</option>
+            <option value="service3">Social Media Management</option>
+            <option value="service3">Other</option>
+          </select>
+      
+          <label for="deadline">Expected Deadline:</label>
+          <input type="datetime-local" id="deadline" name="deadline">
+      
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+      
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      
+      <footer class="footer">
+        <div class="footer-left">
+          <img src="https://i.postimg.cc/3J7mVWJc/logo-removebg-preview.png" alt="Logo">
+        </div>
+        <div class="footer-right">
+          <p>Reach us directly:</p>
+          <p>Email: ballersenterprise3.0@gmail.com</p>
+          <p>Phone: +254114730775</p>
+        </div>
+      </footer>
+      
+
+    <script src="main.js"></script>
+</body>
+</html>
